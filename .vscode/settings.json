@@ -1,0 +1,11 @@
+{
+  "python.linting.pylintEnabled": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#caa8f1",
+    "titleBar.activeBackground": "#caa8f1",
+    "titleBar.inactiveBackground": "#caa8f1",
+    "titleBar.activeForeground": "#000000",
+    "statusBar.foreground": "#000000",
+  },
+  "window.title": "DESIGN FEED BACKEND"
+}
