@@ -20,7 +20,8 @@
     "chest": 1,
     "waist": 1,
     "inside_leg_length": 1,
-    "outside_leg_length": 1
+    "outside_leg_length": 1,
+    "added_by": 1
   }
 },
 {
@@ -44,7 +45,8 @@
     "chest": 1,
     "waist": 1,
     "inside_leg_length": 1,
-    "outside_leg_length": 1
+    "outside_leg_length": 1,
+    "added_by": 1
   }
 },
 {
@@ -68,7 +70,8 @@
     "chest": 1,
     "waist": 1,
     "inside_leg_length": 1,
-    "outside_leg_length": 1
+    "outside_leg_length": 1,
+    "added_by": 1
   }
 },
 {
@@ -92,7 +95,8 @@
     "chest": 1,
     "waist": 1,
     "inside_leg_length": 1,
-    "outside_leg_length": 1
+    "outside_leg_length": 1,
+    "added_by": 1
   }
 },
 {
@@ -116,7 +120,8 @@
     "chest": 1,
     "waist": 1,
     "inside_leg_length": 1,
-    "outside_leg_length": 1
+    "outside_leg_length": 1,
+    "added_by": 1
   }
 },
 {
@@ -140,7 +145,8 @@
     "chest": 1,
     "waist": 1,
     "inside_leg_length": 1,
-    "outside_leg_length": 1
+    "outside_leg_length": 1,
+    "added_by": 1
   }
 },
 {
@@ -164,7 +170,8 @@
     "chest": 1,
     "waist": 1,
     "inside_leg_length": 1,
-    "outside_leg_length": 1
+    "outside_leg_length": 1,
+    "added_by": 1
   }
 },
 {
@@ -188,7 +195,8 @@
     "chest": 1,
     "waist": 1,
     "inside_leg_length": 1,
-    "outside_leg_length": 1
+    "outside_leg_length": 1,
+    "added_by": 1
   }
 },
 {
@@ -212,7 +220,8 @@
     "chest": 0,
     "waist": 0,
     "inside_leg_length": 0,
-    "outside_leg_length": 0
+    "outside_leg_length": 0,
+    "added_by": 1
   }
 },
 {
@@ -236,7 +245,8 @@
     "chest": 0,
     "waist": 0,
     "inside_leg_length": 0,
-    "outside_leg_length": 0
+    "outside_leg_length": 0,
+    "added_by": 1
   }
 },
 {
@@ -260,27 +270,8 @@
     "chest": null,
     "waist": null,
     "inside_leg_length": null,
-    "outside_leg_length": null
-  }
-},
-{
-  "model": "designs.comment",
-  "pk": 2,
-  "fields": {
-    "text": "I am not really a fan of printed tee's like this but I think the colours work really well together. I would potentially think about making it more of a cropped shape though.",
-    "rating": 3,
-    "created_at": "2021-09-08T17:13:27.659Z",
-    "design": 2
-  }
-},
-{
-  "model": "designs.comment",
-  "pk": 4,
-  "fields": {
-    "text": "I love this design, really lovely zip details!! I would definetly wear this design- great stuff!!",
-    "rating": 5,
-    "created_at": "2021-09-08T20:07:00.269Z",
-    "design": 1
+    "outside_leg_length": null,
+    "added_by": 1
   }
 }
 ]

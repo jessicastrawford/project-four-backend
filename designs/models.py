@@ -1,5 +1,4 @@
 from django.db import models
-from django.db.models.deletion import CASCADE
 
 class Design(models.Model):
     name = models.CharField(max_length=100)
@@ -20,6 +19,18 @@ class Design(models.Model):
     waist = models.PositiveBigIntegerField(blank=True, null=True)
     inside_leg_length = models.PositiveBigIntegerField(blank=True, null=True)
     outside_leg_length = models.PositiveBigIntegerField(blank=True, null=True)
+    saved_by = models.ManyToManyField(
+        'jwt_auth.User',
+        related_name='saved_designs',
+        blank='True'
+    )
+
+    added_by = models.ForeignKey(
+        'jwt_auth.User',
+        related_name='added_designs',
+        on_delete=models.DO_NOTHING,
+        blank=True
+    )
 
 
     def __str__(self):
@@ -32,6 +43,12 @@ class Comment(models.Model):
     design = models.ForeignKey(
         Design,
         related_name='comments',
+        on_delete=models.CASCADE
+    )
+
+    owner = models.ForeignKey(
+        'jwt_auth.User',
+        related_name='comments_made',
         on_delete=models.CASCADE
     )
 
