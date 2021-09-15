@@ -7,13 +7,13 @@ User = get_user_model()
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('username', 'profile_image')
+        fields = ('username', 'profile_image', 'id')
 
 class NestedUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('username', 'profile_image')
+        fields = ('username', 'profile_image', 'id')
 
 class NestedDesignSerializer(serializers.ModelSerializer):
 

@@ -22,7 +22,7 @@ class UserRegisterSerializer(serializers.ModelSerializer):
             raise ValidationError({'password_confirmation': 'Does Not Match'})
         # try:
         #     validation.validate_password(password=password)
-        # except ValidationError as err: 
+        # except ValidationError as err:
         #     raise ValidationError({'password': err.messages})
         
         data['password'] = make_password(password)
@@ -38,4 +38,10 @@ class UserProfileSerializer(serializers.ModelSerializer):
     added_designs = DesignSerializer(many=True)
     class Meta:
         model = User
-        fields = ('username', 'email', 'first_name', 'last_name', 'profile_image', 'job_title', 'company', 'saved_designs', 'added_designs')
+        fields = ('username', 'email', 'first_name', 'last_name', 'profile_image', 'job_title', 'company', 'saved_designs', 'added_designs', 'id')
+
+class UserProfileEditSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = User
+        fields  = ('username', 'email', 'first_name', 'last_name', 'profile_image', 'job_title', 'company')
