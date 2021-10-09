@@ -2,15 +2,15 @@
 
 # Table of contents
 
-* Project Overview
-* Brief 
-* Technologies Used
-* Approach Taken
-* Wins
-* Challenges 
-* Bugs
-* Key Learnings
-* Future Content 
+* [Project Overview](#project-overview)
+* [Brief](#brief) 
+* [Technologies Used](#technologies-used)
+* [Approach Taken](#approach-taken)
+* [Wins](#wins)
+* [Challenges](#challenges)
+* [Bugs](#bugs)
+* [Key Learnings](#key-learnings)
+* [Future Content](#future-content-what-would-i-like-to-add-if-i-had-more-time) 
 
 # Project Overview 
 
