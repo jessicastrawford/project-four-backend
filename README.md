@@ -22,6 +22,11 @@ This was my first experience creating a full stack app and creating a backend us
 ![Screenshot 2021-10-08 at 14 40 04](https://user-images.githubusercontent.com/83759837/136567337-30493adf-9c32-4873-84ed-179e93ff9ef4.png)
 ![Screenshot 2021-10-08 at 14 41 01](https://user-images.githubusercontent.com/83759837/136567462-6eb2e8ba-7af3-4043-b824-8477c3bc5095.png)
 
+Please feel free to sign up and login with your own credentials or you can use the following: 
+
+Username: zoe_daniels
+Password: password
+
 # Brief
 
 * Build a full-stack application by making your own backend and your own frontend.
