@@ -83,7 +83,7 @@ Starting off in Excalidraw where I drew out a detailed layout plan of how I visu
 
 Starting off in Excalidraw where I drew out a detailed layout plan of how I visualise my App to look and function. I find this a really useful start to a project as it helps me hugely further down the line if I am ever stuck on what I need to do. I then created an entity relationship diagram (ERD) which helped to inform me of all my models and data relationships.
 
-![Untitled-2021-08-18-1303(7)](https://user-images.githubusercontent.com/83759837/136569133-6c739c7b-61bf-4763-b86f-bb7ebef2ac93.png)
+![Untitled-2021-08-18-1303(8)](https://user-images.githubusercontent.com/83759837/137340962-f89b7190-f2ce-4912-a282-d2f5fa1381dd.png)
 ![Screenshot 2021-10-08 at 14 52 24](https://user-images.githubusercontent.com/83759837/136569040-1e0f1c91-b5f6-4950-a68d-588cb2b23c0d.png)
 
 __Backend:__
